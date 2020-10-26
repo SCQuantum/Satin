@@ -1,11 +1,16 @@
 .SEC-PH {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 15;
     background-color: rgb(35, 35, 35);
 }
 
 .PH-HEADER {
+    margin-top: 40px;
+    background-color: rgb(84, 84, 84);
     width: 100%;
     height: 500px;
-    background-color: rgb(84, 84, 84);
 }
 
 .PH-MISC-MAIN {
@@ -41,3 +46,6 @@
     background-color: rgb(54, 54, 54);
 }
 
+.navbar{
+    background-color: black;
+}
